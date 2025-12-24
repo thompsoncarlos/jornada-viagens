@@ -1,5 +1,18 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+:root {
+  --background-primary-color: #ffffff;
+  --background-secondary-color: #f5f5f5;
+  --background-terciary-color: #000000;
+
+  --button-primary-color: #8f0101;
+  --button-secondary-color: #b81515;
+
+  --text-primary-color: #222222;
+  --text-secondary-color: #ffffff;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
