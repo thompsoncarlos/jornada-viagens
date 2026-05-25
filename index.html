@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="br">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="favico.png" />
     <title>Jornada Viagens</title>
   </head>
   <body>
@@ -12,11 +13,13 @@
         <img
           src="img/bussola-jornada-branca.png"
           alt="Bússola Jornada Viagens na
-        cor preta"
-        />
+        cor preta" />
       </a>
       <div class="navigation-menu">
-        <img src="img/menu.png" alt="menu hamburguer" />
+        <label for="menu-toggle">
+          <img src="img/menu.png" alt="menu hamburguer" />
+        </label>
+        <input type="checkbox" id="menu-toggle" hidden />
         <nav>
           <ul>
             <li>
@@ -26,14 +29,11 @@
               <a
                 href="pacotes.html"
                 target="_blank"
-                title="Acessar Pacotes de viagem"
-                >Pacotes de viagem</a
-              >
+                title="Acessar Pacotes de viagem">Pacotes de viagem</a>
             </li>
             <li>
-              <a href="contato.html" target="_blank" title="Acessar Contato"
-                >Contato</a
-              >
+              <a href="contato.html" target="_blank"
+                title="Acessar Contato">Contato</a>
             </li>
           </ul>
         </nav>
