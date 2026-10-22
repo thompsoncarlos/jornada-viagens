@@ -16,12 +16,23 @@
   --text-primary-color: #222222;
   --text-secondary-color: #ffffff;
 
-  --titles-weight: 700;
+  --title-weight: 700;
   --text-weight: 400;
-  --menu-weight: 500;
+  --menu-text-weight: 500;
 }
 
-* {
+/* CSS RESET */
+body,
+img,
+h1,
+p,
+fieldset,
+legend,
+label,
+input,
+select,
+textarea,
+button {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -34,11 +45,10 @@ body {
 
 .section-title h2 {
   font-size: 28px;
-  font-height: var(--title-weight);
+  font-weight: var(--title-weight);
   margin: 0;
   text-align: center;
 }
-
 .section-title hr {
   width: 180px;
   height: 4px;
